@@ -1,0 +1,44 @@
+/* navigation bar */
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0.2rems;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+.navbar .nav a:hover {
+  background: black;
+}
+
+.navbar-header a {
+  color: black;
+}
+
+/* about section  */
+.about {
+  text-align: center;
+}
+.about h1 {
+  color: white;
+}
+.about h2 {
+  color: rgb(12, 12, 12);
+}
+
+/* footer section */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(24, 22, 22);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
